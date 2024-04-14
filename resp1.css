@@ -1,0 +1,247 @@
+@media only screen and (max-width: 1366px) and (min-width: 768px) {
+
+
+
+
+    .icon-box {
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        font-size: 18px;
+    }
+
+
+
+    .container-1 {
+        margin-top: 60px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    .sidebar {
+        width: 70%;
+        max-height: 140px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .sidebar.active {
+        max-height: 450px;
+    }
+
+    .sidebar-information {
+        gap: 25px;
+        /* opacity: 0;
+        visibility: hidden; */
+
+    }
+
+    .sidebar .sidebar-moreinformation {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .sidebar.active .sidebar-moreinformation {
+        opacity: 1;
+        visibility: visible;
+        transition: .5s ease-in-out;
+
+    }
+
+    .avatar-box {
+        border-radius: 30px;
+    }
+
+    .avatar-box img {
+        width: 120px;
+    }
+
+    .info-content .name {
+        margin-bottom: 15px;
+    }
+
+    .info-content .title {
+        padding: 5px 18px;
+    }
+
+    .info_more-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 10px 15px;
+        display: block;
+
+    }
+
+    .info_more-btn span {
+        display: block;
+        font-size: var(--fs-8);
+    }
+
+    .info_more-btn ion-icon {
+        display: none;
+    }
+
+    .line {
+        margin: 32px 0;
+    }
+
+    .contacts-list {
+        gap: 20px;
+    }
+
+    .contact-info {
+        max-width: calc(100% - 64px);
+        width: calc(100% - 64px);
+    }
+
+    .main-content {
+        width: 70%;
+        margin-left: 4px;
+    }
+
+    .social-list {
+        display: none;
+    }
+
+    .works .main-service .card {
+        background-color: #8eb0aa;
+        align-items: center;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .icon-box {
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        font-size: 18px;
+    }
+
+
+
+    .container-1 {
+        margin-top: 60px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    .sidebar {
+        width: 70%;
+        max-height: 140px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .sidebar.active {
+        max-height: 450px;
+    }
+
+    .sidebar-information {
+        gap: 25px;
+        /* opacity: 0;
+        visibility: hidden; */
+
+    }
+
+    .sidebar .sidebar-moreinformation {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .sidebar.active .sidebar-moreinformation {
+        opacity: 1;
+        visibility: visible;
+        transition: .5s ease-in-out;
+
+    }
+
+    .avatar-box {
+        border-radius: 30px;
+    }
+
+    .avatar-box img {
+        width: 120px;
+    }
+
+    .info-content .name {
+        margin-bottom: 15px;
+    }
+
+    .info-content .title {
+        padding: 5px 18px;
+    }
+
+    .info_more-btn {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 10px 15px;
+        display: none;
+
+    }
+
+    .info_more-btn span {
+        display: block;
+        font-size: var(--fs-8);
+    }
+
+    .info_more-btn ion-icon {
+        display: none;
+    }
+
+    .line {
+        margin: 32px 0;
+    }
+
+    .contacts-list {
+        gap: 20px;
+    }
+
+    .contact-info {
+        max-width: calc(100% - 64px);
+        width: calc(100% - 64px);
+    }
+
+    .main-content {
+        width: 70%;
+        margin-left: 4px;
+    }
+
+    .social-list {
+        display: none;
+    }
+
+    .works .main-service .card {
+        background-color: #8eb0aa;
+        align-items: center;
+        height: 350px;
+    }
+
+    .resume .services .TL-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume .services .timeline {
+        margin-left: 2rem;
+    }
+
+    .about .services .services1 .main-service .card {
+        min-height: 200px;
+
+    }
+}
